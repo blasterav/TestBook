@@ -1,0 +1,45 @@
+<com.example.phoosop.testbook.mvp.view.custom.CustomScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/full_book_scroll"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:id="@+id/full_book_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/vertical_margin">
+        <ImageView
+            android:id="@+id/full_book_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:id="@+id/full_book_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+        <RatingBar
+            android:id="@+id/full_book_rating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/full_book_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"/>
+    </LinearLayout>
+
+</com.example.phoosop.testbook.mvp.view.custom.CustomScrollView>

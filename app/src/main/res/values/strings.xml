@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TestBook</string>
+    <string name="parse_app_id">Y8PewaJoWN4GkOWNNFku2iepxaY2qmCK0JN8oqF7</string>
+    <string name="parse_client_key">C0naQabK3vvFlCqrcpS7OGqPilv4IfEiFA4ULzxz</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="item_mini_description">%1$s...</string>
+    <string name="sort_name">По названию</string>
+    <string name="sort_rating">По рейтингу</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
